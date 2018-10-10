@@ -1,0 +1,15 @@
+<clr-datagrid>
+    <clr-dg-column>Car ID</clr-dg-column>
+    <clr-dg-column>Model</clr-dg-column>
+    <clr-dg-column>Owner</clr-dg-column>
+    <clr-dg-column>Color</clr-dg-column>
+
+    <clr-dg-row *ngFor="let car of cars">
+        <clr-dg-cell>{{car.id}}</clr-dg-cell>
+        <clr-dg-cell>{{car.name}}</clr-dg-cell>
+        <clr-dg-cell>{{car.owner}}</clr-dg-cell>
+        <clr-dg-cell>{{car.color}}</clr-dg-cell>
+    </clr-dg-row>
+
+    <clr-dg-footer>{{car.length}} cars</clr-dg-footer>
+</clr-datagrid>

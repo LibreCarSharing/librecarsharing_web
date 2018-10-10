@@ -1,0 +1,21 @@
+.header .branding .title {
+	font-size: .66667rem;
+	font-weight: 400;
+	font-family: Metropolis,Avenir Next,Helvetica Neue,Arial,sans-serif;
+	letter-spacing: .01em;
+	color: #fafafa;
+	line-height: 2.5rem;
+	text-decoration: none;
+}
+header {
+    display: flex;
+    height: 2.5rem;
+    white-space: nowrap;
+}
+.logo {
+    align-self: center;
+}
+.title {
+    align-self: center;
+    padding: 1rem;
+}
