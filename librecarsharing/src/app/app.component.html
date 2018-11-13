@@ -43,19 +43,19 @@
       </div>
       <nav class="sidenav">
           <section class="sidenav-content">
-              <a routerLink="dashboard" class="nav-link" [class.active]="isDashboardActive" #dashboard>
+              <a routerLink="dashboard" class="nav-link"  routerLinkActive="active" #dashboard>
                   <clr-icon shape="dashboard"></clr-icon>
                   Dashboard
               </a>
-              <a routerLink="cars" class="nav-link" [class.active]="isCarsActive" #cars>
+              <a routerLink="cars" class="nav-link"  routerLinkActive="active" #cars>
                   <clr-icon shape="car"></clr-icon>
                   Car Management
               </a>
-              <a routerLink="users" class="nav-link" [class.active]="isUsersActive" #users (click)="onClick()">
+              <a routerLink="users" class="nav-link"  routerLinkActive="active" #users (click)="onClick()">
                   <clr-icon shape="users"></clr-icon>
                   User Management
               </a>
-              <a routerLink="admin" class="nav-link" [class.active]="isAdminActive" #admin (click)="onClick()">
+              <a routerLink="admin" class="nav-link"  routerLinkActive="active" #admin (click)="onClick()">
                   <clr-icon shape="administrator"></clr-icon>
                   Admin configuration
               </a>
