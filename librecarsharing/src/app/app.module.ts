@@ -10,13 +10,17 @@ import { AppRoutingModule } from './/app-routing.module';
 import { CarsComponent } from './cars/cars.component';
 import { KeycloakService, KeycloakAngularModule } from 'keycloak-angular';
 import { initializer } from './utils/app-init';
+import { UsersComponent } from './users/users.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     LoginComponent,
-    CarsComponent
+    CarsComponent,
+    UsersComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
