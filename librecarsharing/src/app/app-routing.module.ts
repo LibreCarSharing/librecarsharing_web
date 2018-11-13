@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full', canActivate: [AppAuthGuard] },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'cars', component: CarsComponent }
+  //{ path: 'logout', redirectTo: 'http://localhost:8080/auth/realms/testing/protocol/openid-connect/logout?redirect_uri=http%3A%2F%2Flocalhost%3A4200', canActivate: [AppAuthGuard] }
 
 ]
 
